@@ -15,7 +15,7 @@ var _Calendar = _interopRequireDefault(require("./Calendar"));
 
 var _core = require("@material-ui/core");
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@material-ui/core/styles");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -83,7 +83,9 @@ var DatePicker = function DatePicker(_ref) {
       _ref$submitButtonText = _ref.submitButtonText,
       submitButtonText = _ref$submitButtonText === void 0 ? 'Submit' : _ref$submitButtonText,
       _ref$selectedDatesTit = _ref.selectedDatesTitle,
-      selectedDatesTitle = _ref$selectedDatesTit === void 0 ? 'Selected Dates' : _ref$selectedDatesTit;
+      selectedDatesTitle = _ref$selectedDatesTit === void 0 ? 'Selected Dates' : _ref$selectedDatesTit,
+      minDate = _ref.minDate,
+      maxDate = _ref.maxDate;
 
   if (cancelButtonText == null) {
     cancelButtonText = readOnly ? 'Dismiss' : 'Cancel';
@@ -91,10 +93,7 @@ var DatePicker = function DatePicker(_ref) {
 
   var _useReducer = (0, _react.useReducer)(reducer, outerSelectedDates, initState),
       _useReducer2 = _slicedToArray(_useReducer, 2),
-      _useReducer2$ = _useReducer2[0],
-      selectedDates = _useReducer2$.selectedDates,
-      minDate = _useReducer2$.minDate,
-      maxDate = _useReducer2$.maxDate,
+      selectedDates = _useReducer2[0].selectedDates,
       dispatch = _useReducer2[1];
 
   var classes = useStyles();

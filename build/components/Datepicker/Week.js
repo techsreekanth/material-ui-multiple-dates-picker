@@ -11,7 +11,7 @@ var _utils = _interopRequireDefault(require("./utils"));
 
 var _dateUtils = require("./dateUtils");
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@material-ui/core/styles");
 
 var _Circle = _interopRequireDefault(require("./Circle"));
 

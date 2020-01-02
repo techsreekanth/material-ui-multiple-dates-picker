@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DateUtilities from './utils'
 import { dateTimeFormat } from './dateUtils'
-import { withStyles } from '@material-ui/styles'
+import { withStyles } from '@material-ui/core/styles'
 import Circle from './Circle'
 
 const styles = theme => ({

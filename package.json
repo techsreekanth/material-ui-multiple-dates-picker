@@ -1,5 +1,5 @@
 {
-  "name": "@randex/material-ui-multiple-dates-picker",
+  "name": "techsree-material-ui-multiple-dates-picker",
   "version": "0.3.0",
   "description": "Date Picker with multiple selection based on Material UI",
   "main": "./build/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/randex/react-multiple-datepicker.git"
+    "url": "git+https://github.com/techsreekanth/react-multiple-datepicker.git"
   },
   "keywords": [
     "multi-datepicker",
@@ -22,8 +22,7 @@
   ],
   "author": {
     "name": "Ruslan Murin",
-    "email": "randexdev@gmail.com",
-    "url": "http://randexdev.com"
+    "email": "tech.sreekanth@gmail.com"
   },
   "contributors": [],
   "license": "MIT",

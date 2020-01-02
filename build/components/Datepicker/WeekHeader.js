@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _core = require("@material-ui/core");
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@material-ui/core/styles");
 
 var _moment = _interopRequireDefault(require("moment"));
 

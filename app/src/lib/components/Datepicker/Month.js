@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import moment from 'moment'
 import Week from './Week'
 import { defaultUtils as utils } from './dateUtils'
-import { withStyles } from '@material-ui/styles'
+import { withStyles } from '@material-ui/core/styles'
 
 const styles = theme => ({
   root: {
