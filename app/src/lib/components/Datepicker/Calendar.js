@@ -27,9 +27,9 @@ import { makeStyles } from '@material-ui/core'
 const useStyles = makeStyles(theme => ({
   root: {
     flex: '1',
-    display: 'flex',
+    display: 'block',
     maxHeight: '100%',
-    overflow: 'hidden'
+    overflow: 'scroll'
   },
   selectorContainer: {
     // marginTop: theme.spacing(2)
@@ -124,12 +124,12 @@ const Calendar = ({
           submitButtonText={submitButtonText}
         />
       </div>
-      <DateDisplay
+      {/* <DateDisplay
         selectedDatesTitle={selectedDatesTitle}
         selectedDates={selectedDates}
         readOnly={readOnly}
         onRemoveAtIndex={onRemoveAtIndex}
-      />
+      /> */}
     </div>
   )
 }

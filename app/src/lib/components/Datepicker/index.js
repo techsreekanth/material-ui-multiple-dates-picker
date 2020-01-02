@@ -9,7 +9,14 @@ const useStyles = makeStyles(theme => ({
   dialogPaper: {
     minHeight: 482,
     maxHeight: 482,
-    display: 'flex'
+    overflowY: 'inherit',
+    margin: 0,
+    display: 'flex',
+    
+  },
+  scrollPaper: {
+    alignItems: 'center',
+    overflowY: 'scroll'
   }
 }))
 
@@ -121,7 +128,7 @@ const DatePicker = ({
   )
 
   return (
-    <Dialog open={open} classes={{ paper: classes.dialogPaper }}>
+    <Dialog open={open} classes={{ paper: classes.dialogPaper,scrollPaper:classes.scrollPaper }}>
       {/* <DialogContent> */}
       <Calendar
         selectedDates={selectedDates}

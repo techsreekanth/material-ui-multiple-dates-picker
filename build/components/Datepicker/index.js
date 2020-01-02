@@ -48,7 +48,13 @@ var useStyles = (0, _styles.makeStyles)(function (theme) {
     dialogPaper: {
       minHeight: 482,
       maxHeight: 482,
+      overflowY: 'inherit',
+      margin: 0,
       display: 'flex'
+    },
+    scrollPaper: {
+      alignItems: 'center',
+      overflowY: 'scroll'
     }
   };
 });
@@ -155,7 +161,8 @@ var DatePicker = function DatePicker(_ref) {
   return _react["default"].createElement(_core.Dialog, {
     open: open,
     classes: {
-      paper: classes.dialogPaper
+      paper: classes.dialogPaper,
+      scrollPaper: classes.scrollPaper
     }
   }, _react["default"].createElement(_Calendar["default"], {
     selectedDates: selectedDates,

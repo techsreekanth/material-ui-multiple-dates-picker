@@ -52,9 +52,9 @@ var useStyles = (0, _core.makeStyles)(function (theme) {
   return {
     root: {
       flex: '1',
-      display: 'flex',
+      display: 'block',
       maxHeight: '100%',
-      overflow: 'hidden'
+      overflow: 'scroll'
     },
     selectorContainer: {
       // marginTop: theme.spacing(2)
@@ -138,12 +138,7 @@ var Calendar = function Calendar(_ref) {
     onOk: onOk,
     cancelButtonText: cancelButtonText,
     submitButtonText: submitButtonText
-  })), _react["default"].createElement(_DateDisplay["default"], {
-    selectedDatesTitle: selectedDatesTitle,
-    selectedDates: selectedDates,
-    readOnly: readOnly,
-    onRemoveAtIndex: onRemoveAtIndex
-  }));
+  })));
 };
 
 var _default = Calendar;
