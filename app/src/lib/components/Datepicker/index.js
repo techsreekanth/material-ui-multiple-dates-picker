@@ -38,13 +38,15 @@ const DatePicker = ({
   selectedDates: outerSelectedDates,
   cancelButtonText,
   submitButtonText = 'Submit',
-  selectedDatesTitle = 'Selected Dates'
+  selectedDatesTitle = 'Selected Dates',
+  minDate, 
+  maxDate
 }) => {
   if (cancelButtonText == null) {
     cancelButtonText = readOnly ? 'Dismiss' : 'Cancel'
   }
 
-  const [{ selectedDates, minDate, maxDate }, dispatch] = useReducer(
+  const [{ selectedDates}, dispatch] = useReducer(
     reducer,
     outerSelectedDates,
     initState
