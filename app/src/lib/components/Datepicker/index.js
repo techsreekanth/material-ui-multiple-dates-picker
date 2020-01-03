@@ -6,6 +6,8 @@ import { Dialog } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import './style.css'
 
+
+
 const useStyles = makeStyles(theme => ({
   dialogPaper: {
     minHeight: 482,
