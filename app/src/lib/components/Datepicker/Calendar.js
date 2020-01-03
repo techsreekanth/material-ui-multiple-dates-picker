@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     flex: '1',
     display: 'block',
     maxHeight: '100%',
-    overflow: 'scroll'
+    // overflow: 'scroll'
   },
   selectorContainer: {
     // marginTop: theme.spacing(2)

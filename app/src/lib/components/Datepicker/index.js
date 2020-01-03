@@ -4,6 +4,7 @@ import DateUtilities from './utils'
 import Calendar from './Calendar'
 import { Dialog } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+import './style.css'
 
 const useStyles = makeStyles(theme => ({
   dialogPaper: {
@@ -19,6 +20,7 @@ const useStyles = makeStyles(theme => ({
     overflowY: 'scroll'
   }
 }))
+
 
 function initState (selectedDates) {
   return {
@@ -128,7 +130,7 @@ const DatePicker = ({
   )
 
   return (
-    <Dialog open={open} classes={{ paper: classes.dialogPaper,scrollPaper:classes.scrollPaper }}>
+    <Dialog open={open} classes={{ paper: classes.dialogPaper }}>
       {/* <DialogContent> */}
       <Calendar
         selectedDates={selectedDates}

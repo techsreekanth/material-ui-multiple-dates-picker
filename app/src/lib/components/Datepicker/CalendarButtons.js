@@ -39,7 +39,7 @@ import { Button, DialogActions } from '@material-ui/core'
 // `;
 
 const CalendarActionButton = ({ cancelButtonText, submitButtonText, onCancel, onOk, readOnly }) => (
-  <DialogActions style={{ marginRight: '2em' }}>
+  <DialogActions style={{ marginRight: '2em', marginTop: '2em' }}>
     <Button variant="contained" size="small" onClick={onCancel}>{cancelButtonText}</Button>
     {!readOnly && (
       <Button variant="contained"  size="small" color='primary' onClick={onOk}>
