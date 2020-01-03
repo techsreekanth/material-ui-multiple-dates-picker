@@ -53,8 +53,8 @@ var useStyles = (0, _core.makeStyles)(function (theme) {
     root: {
       flex: '1',
       display: 'block',
-      maxHeight: '100%',
-      overflow: 'scroll'
+      maxHeight: '100%' // overflow: 'scroll'
+
     },
     selectorContainer: {
       // marginTop: theme.spacing(2)

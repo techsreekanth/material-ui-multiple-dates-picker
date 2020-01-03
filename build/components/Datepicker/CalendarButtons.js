@@ -54,7 +54,8 @@ var CalendarActionButton = function CalendarActionButton(_ref) {
       readOnly = _ref.readOnly;
   return _react["default"].createElement(_core.DialogActions, {
     style: {
-      marginRight: '2em'
+      marginRight: '2em',
+      marginTop: '2em'
     }
   }, _react["default"].createElement(_core.Button, {
     variant: "contained",
