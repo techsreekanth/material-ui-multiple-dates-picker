@@ -8,4 +8,26 @@
         min-height: 340px !important;
         max-height: 340px !important;
     }
+}@media (max-width: 767px) and (orientation: landscape) {
+    .MuiDialog-scrollPaper {
+        align-items: baseline !important; 
+        overflow-y: scroll !important;
+    }
+    .MuiDialog-paper {
+        overflow-y: auto !important;
+        min-height: 340px !important;
+        max-height: 340px !important;
+    }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+    .MuiDialog-scrollPaper {
+        align-items: baseline !important; 
+        overflow-y: scroll !important;
+    }
+    .MuiDialog-paper {
+        overflow-y: auto !important;
+        min-height: 340px !important;
+        max-height: 340px !important;
+    }
 }
