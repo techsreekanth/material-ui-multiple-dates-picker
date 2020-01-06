@@ -31,20 +31,20 @@
   },
   "homepage": "https://github.com/randex/react-multiple-datepicker#readme",
   "dependencies": {
-    "@material-ui/core": "^4.3.2",
-    "@material-ui/icons": "^4.2.1",
-    "@material-ui/styles": "^4.3.0",
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.8.2",
     "classnames": "^2.2.6",
     "moment": "^2.24.0",
     "warning": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.2",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-eslint": "^10.0.3",
     "standard": "^13.1.0"
   },
   "standard": {
