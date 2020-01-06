@@ -1,6 +1,6 @@
 {
   "name": "techsree-material-ui-multiple-dates-picker",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Date Picker with multiple selection based on Material UI",
   "main": "./build/index.js",
   "scripts": {
