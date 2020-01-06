@@ -3,4 +3,9 @@
         align-items: baseline !important; 
         overflow-y: scroll !important;
     }
+    .MuiDialog-paper {
+        overflow-y: auto !important;
+        min-height: 340px !important;
+        max-height: 340px !important;
+    }
 }
